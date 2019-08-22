@@ -44,7 +44,7 @@ You can verify whether or not it worked by running `.b version` in chat (only va
   - If you choose to download, make sure you extract the ZIP archive.
 - Follow one of the instruction sets below, based on your preference
 
-## Command Line
+### Command Line
 On Mac OSX and Linux, use `./gradlew` instead of `gradlew`.
 
 Setting up the Environment:
@@ -62,7 +62,7 @@ $ gradlew runClient
 
 For information on how to build baritone, see [Building Baritone](#building-baritone)
 
-## IntelliJ
+### IntelliJ
 - Open the project in IntelliJ as a Gradle project
   
   ![Image](https://i.imgur.com/jw7Q6vY.png)
@@ -87,20 +87,24 @@ For information on how to build baritone, see [Building Baritone](#building-bari
   
   ![Image](https://i.imgur.com/hrLhG9u.png)
 
-# Building
+## Building
 
 Make sure that you have properly [setup](#setup) the environment before trying to build it.
 
-## Command Line
+### Command Line
 
 ```
 $ gradlew build
 ```
 
-## IntelliJ
+### IntelliJ
 
 - Navigate to the gradle tasks on the right tab as follows
 
   ![Image](https://i.imgur.com/PE6r9iN.png)
 
 - Double click on **build** to run it
+
+## Troubleshooting
+
+- Are you using java 1.8?
